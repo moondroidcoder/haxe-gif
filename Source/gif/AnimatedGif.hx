@@ -104,7 +104,7 @@ class AnimatedGif extends Sprite{
 	}
 
 	private function timerTick(_){
-		timer.stop();
+		timer.reset();
 		timer.delay=nextFrame();
 		timer.start();
 	}
